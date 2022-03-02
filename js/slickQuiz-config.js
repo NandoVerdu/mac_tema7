@@ -162,12 +162,40 @@ var quizJSON = {
             "a": [
                 {"option": "Las distancias recorridas superan los 500 km",    "correct": false},
                 {"option": "Existen al menos dos mayoristas",     "correct": false},
-                {"option": "Tiene la estructura Fabricante -> Agente -> M",      "correct": false},
+                {"option": "Tiene la estructura Fabricante -> Agente -> Mayorista -> Minorista -> Consumidor final",      "correct": true},
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 14
+            "q": "El objetivo final de la estrategia de omnicanalidad es mejorar la experiencia del usuario brindándole la misma información a través de todos los canales de distribución. Son ejemplos de omnicanalidad",
+            "a": [
+                {"option": "El cliente tiene el mismo carro de la compra en la página web y en la aplicación móvil",    "correct": true},
+                {"option": "El cliente tiene múltiples canales de compra (web, aplicación móvil, tienda física, ...) pero no comparten los mismos datos del cliente",     "correct": false},
+                {"option": "La empresa ofrece las mismas promociones en todos los canales",      "correct": true},
+                {"option": "La empresa tiene las bases de datos integradas y coherentes: las unidades físicas en la aplicación móvil coinciden en la página web",      "correct": true},
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 15
+            "q": "Verdadero o falso",
+            "a": [
+                {"option": "Es preferible un canal corto si hay pocos compradores", "correct": true},
+                {"option": "Para el comercio internacional resulta más rentable un canal largo o muy largo, con operadores especializados", "correct": true},
+                {"option": "Las limitaciones legales no afectan a la elección del canal de distribución", "correct": false},
+                {"option": "Cuanto más amplia sea la cartera de productos es más recomendable el canal directo",  "correct": true},
                 ,
             ],
             "correct": "<p>Correcto!<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
         }
+
+
+
+
         
 
     ]
