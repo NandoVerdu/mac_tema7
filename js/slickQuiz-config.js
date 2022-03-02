@@ -95,8 +95,8 @@ var quizJSON = {
         { // Question 8
             "q": "Los servicios, ¿son susceptibles de distribución física?",
             "a": [
-                {"option": "No",    "correct": false},
-                {"option": "Sí",     "correct": true},
+                {"option": "Sí",    "correct": false},
+                {"option": "No",     "correct": true},
             ],
             "correct": "<p>Correcto! La distribución física hace referencia al conjunto de actividades que conllevan una acción física sobre los productos compuesta por transporte, diversificación y almacenamiento<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
@@ -135,7 +135,7 @@ var quizJSON = {
             "correct": "<p>Correcto!<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
         },
-        { // Question 11
+        { // Question 12
             "q": "Un canal de distribución indirecto corto ...",
             "a": [
                 {"option": "Participa un único intermediario, el detallista o minorista",    "correct": true},
@@ -146,7 +146,7 @@ var quizJSON = {
             "correct": "<p>Correcto!<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
         },
-        { // Question 12
+        { // Question 13
             "q": "Un canal de distribución indirecto largo ...",
             "a": [
                 {"option": "Participa al menos dos intermediarios, mayorista y minorista",    "correct": true},
@@ -157,7 +157,7 @@ var quizJSON = {
             "correct": "<p>Correcto!<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
         },
-        { // Question 13
+        { // Question 14
             "q": "Un canal de distribución indirecto muy largo ...",
             "a": [
                 {"option": "Las distancias recorridas superan los 500 km",    "correct": false},
@@ -168,7 +168,7 @@ var quizJSON = {
             "correct": "<p>Correcto!<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
         },
-        { // Question 14
+        { // Question 15
             "q": "El objetivo final de la estrategia de omnicanalidad es mejorar la experiencia del usuario brindándole la misma información a través de todos los canales de distribución. Son ejemplos de omnicanalidad",
             "a": [
                 {"option": "El cliente tiene el mismo carro de la compra en la página web y en la aplicación móvil",    "correct": true},
@@ -180,18 +180,103 @@ var quizJSON = {
             "correct": "<p>Correcto!<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
         },
-        { // Question 15
+        { // Question 16
             "q": "Verdadero o falso",
             "a": [
                 {"option": "Es preferible un canal corto si hay pocos compradores", "correct": true},
                 {"option": "Para el comercio internacional resulta más rentable un canal largo o muy largo, con operadores especializados", "correct": true},
                 {"option": "Las limitaciones legales no afectan a la elección del canal de distribución", "correct": false},
                 {"option": "Cuanto más amplia sea la cartera de productos es más recomendable el canal directo",  "correct": true},
+                {"option": "La distribución indirecta incurre en unos costes fijos mayores que la distribución directa",  "correct": false},
+                {"option": "Cuanto más amplia sea la cartera de productos es más recomendable el canal directo",  "correct": true},
+                {"option": "La distribución indirecta incurre en unos costes variables mayores que la distribución directa",  "correct": true},
+
+
                 ,
             ],
             "correct": "<p>Correcto!<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 17
+            "q": "Un inconveniente de la distribución indirecta para el fabricante es que ...",
+            "a": [
+                {"option": "reduce el número de transacciones con el consumidor final", "correct":false },
+                {"option": "reduce sus costes, ya que no se ocupa del transporte y del almacenamiento", "correct":false },
+                {"option": "el precio final se ve incrementado, ya que el intermediario/s añaden un margen por su gestión", "correct": true}
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 18
+            "q": "Un inconveniente de la distribución indirecta para el fabricante es que ...",
+            "a": [
+                {"option": "reduce el número de transacciones con el consumidor final", "correct":false },
+                {"option": "reduce sus costes, ya que no se ocupa del transporte y del almacenamiento", "correct":false },
+                {"option": "el precio final se ve incrementado, ya que el intermediario/s añaden un margen por su gestión", "correct": true}
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 19
+            "q": "Adquieren mercancía a fabricantes o a otros mayoristas para revender a otros mayoristas o minoristas",
+            "a": [
+                {"option": "Mayoristas", "correct":true },
+                {"option": "Minoristas", "correct":false },
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 20
+            "q": "Venden directamente al consumidor final",
+            "a": [
+                {"option": "Mayoristas", "correct":false },
+                {"option": "Minoristas", "correct":true },
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 21
+            "q": "Venden directamente al consumidor final",
+            "a": [
+                {"option": "Mayoristas", "correct":false },
+                {"option": "Minoristas", "correct":true },
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 22
+            "q": "Un comercio independiente es el que ...",
+            "a": [
+                {"option": "realiza su actividad de manera independiente", "correct":true },
+                {"option": "se unen varios intermediarios pero conservando su independencia con el objetivo de obtener mejores precios comprando un mayor volumen o acceder con menores riesgos a nuevos mercados", "correct":false },
+                {"option": "varios eslabones del canal de distribución se agrupan y forman una sola entidad de manera que cada eslabón pierde la independencia","correct":false},
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 23
+            "q": "Un comercio asociado es el que ...",
+            "a": [
+                {"option": "realiza su actividad de manera independiente", "correct":false },
+                {"option": "se unen varios intermediarios pero conservando su independencia con el objetivo de obtener mejores precios comprando un mayor volumen o acceder con menores riesgos a nuevos mercados", "correct":true },
+                {"option": "varios eslabones del canal de distribución se agrupan y forman una sola entidad de manera que cada eslabón pierde la independencia","correct":false},
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 24
+            "q": "Un comercio integrado es el que ...",
+            "a": [
+                {"option": "realiza su actividad de manera independiente", "correct":false },
+                {"option": "se unen varios intermediarios pero conservando su independencia con el objetivo de obtener mejores precios comprando un mayor volumen o acceder con menores riesgos a nuevos mercados", "correct":false },
+                {"option": "varios eslabones del canal de distribución se agrupan y forman una sola entidad de manera que cada eslabón pierde la independencia","correct":true},
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
         }
+        
 
 
 
