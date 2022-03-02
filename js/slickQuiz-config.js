@@ -4,69 +4,171 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Test Your Knowledge!!",
-        "main":    "<p>Think you're smart enough to be on Jeopardy? Find out with this super crazy knowledge quiz!</p>",
+        "name":    "La distribución como variable de marketing",
+        "main":    "<p>Definimos distribución como el conjunto de tareas y operaciones necesarias para llevar los productos desde el lugar de fabricación hasta los lugares de venta.</p>",
         "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "level1":  "Muy bien!!",
+        "level2":  "Bien!",
+        "level3":  "Bueno ...!",
+        "level4":  "Relee el tema",
+        "level5":  "Relee el tema..." // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What number is the letter A in the English alphabet?",
+            "q": "Cuando decimos que la distribución es una variable del marketing a largo plazo nos referimos a que",
             "a": [
-                {"option": "8",      "correct": false},
-                {"option": "14",     "correct": false},
-                {"option": "1",      "correct": true},
-                {"option": "23",     "correct": false} // no comma here
+                {"option": "Las decisiones que se toman al respecto son difícilmente modificables",      "correct": true},
+                {"option": "Acercar el producto a la clientela conlleva costes adicionales a la fabricación",     "correct": false},
+                {"option": "Los productos acabados se entregan al distribuidor para su acercamiento al consumidor, por lo que quedan en posesión del distribuidor",      "correct": false},
+                 // no comma here
             ],
-            "correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
-            "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
+            "correct": "<p><span>Correcto</span> Lo mismo ocurre con el producto. El precio y la comunicación son modificables a corto plazo</p>",
+            "incorrect": "<p><span>No es Correcto.</span> </p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following best represents your preferred breakfast?",
+            "q": "Cuando decimos que la distribución es una variable del marketing que repercute en el precio nos referimos a que",
             "a": [
-                {"option": "Bacon and eggs",               "correct": false},
-                {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                {"option": "Leftover pizza",               "correct": false},
-                {"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
+                {"option": "Las decisiones que se toman al respecto son difícilmente modificables",      "correct": false},
+                {"option": "Acercar el producto a la clientela conlleva costes adicionales a la fabricación",     "correct": true},
+                {"option": "Los productos acabados se entregan al distribuidor para su acercamiento al consumidor, por lo que quedan en posesión del distribuidor",      "correct": false},
+                 // no comma here
             ],
-            "select_any": true,
-            "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
+            "correct": "<p><span>Correcto</span> Las diferentes partes que intervienen en la distribución quieren obtener una ganancia</p>",
+            "incorrect": "<p><span>No es Correcto.</span> </p>" // no comma here // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
+            "q": "Cuando decimos que la distribución es una variable del marketing que produce una pérdida del control nos referimos a que",
             "a": [
-                {"option": "Planet Earth",           "correct": true},
-                {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} // no comma here
+                {"option": "Las decisiones que se toman al respecto son difícilmente modificables",      "correct": false},
+                {"option": "Acercar el producto a la clientela conlleva costes adicionales a la fabricación",     "correct": false},
+                {"option": "Los productos acabados se entregan al distribuidor para su acercamiento al consumidor, por lo que quedan en posesión del distribuidor",      "correct": true},
+                 // no comma here
             ],
-            "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "correct": "<p><span>Correcto</span> El distribuidor puede aplicar estrategias diferentes</p>",
+            "incorrect": "<p><span>No es Correcto.</span> </p>" 
         },
         { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
+            "q": "Se refiere al traslado de los productos desde el punto de fabricación",
             "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} // no comma here
+                {"option": "Transporte",    "correct": true},
+                {"option": "Difusión",     "correct": false},
+                {"option": "Diversificación",      "correct": false},
+                {"option": "Logística",   "correct": false},
             ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here
         },
         { // Question 5
-            "q": "Is Earth bigger than a basketball?",
+            "q": "Permite que los productos lleguen hasta diferentes puntos de venta, desde un único punto de fabricación",
             "a": [
-                {"option": "Yes",    "correct": true},
-                {"option": "No",     "correct": false} // no comma here
+                {"option": "Transporte",    "correct": false},
+                {"option": "Difusión",     "correct": true},
+                {"option": "Diversificación",      "correct": false},
+                {"option": "Logística",   "correct": false},
             ],
-            "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" // no comma here
-        } // no comma here
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+
+        { // Question 6
+            "q": "Transformación de lotes de venta mediante división de la producción en cantidades adecuadas para su venta",
+            "a": [
+                {"option": "Transporte",    "correct": false},
+                {"option": "Difusión",     "correct": false},
+                {"option": "Diversificación",      "correct": true},
+                {"option": "Logística",   "correct": false},
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 7
+            "q": "Estudia cómo llevar el producto al público en las mejores condiciones",
+            "a": [
+                {"option": "Transporte",    "correct": false},
+                {"option": "Difusión",     "correct": false},
+                {"option": "Diversificación",      "correct": false},
+                {"option": "Logística",   "correct": true},
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 8
+            "q": "Los servicios, ¿son susceptibles de distribución física?",
+            "a": [
+                {"option": "No",    "correct": false},
+                {"option": "Sí",     "correct": true},
+            ],
+            "correct": "<p>Correcto! La distribución física hace referencia al conjunto de actividades que conllevan una acción física sobre los productos compuesta por transporte, diversificación y almacenamiento<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 9
+            "q": "Un canal de distribución es ...",
+            "a": [
+                {"option": "El camino que sigue un producto desde el punto de fabricación hasta su consumo; está formado por el conjunto de personas u organizaciones (intermediarios) que intervienen a lo largo de dicho camino",    "correct": true},
+                {"option": "El proceso que sigue un producto desde el punto de fabricación hasta su consumo; está formado por el conjunto de personas u organizaciones (intermediarios) que intervienen a lo largo de dicho camino",     "correct": false},
+                {"option": "La frecuencia que sigue un producto desde el punto de fabricación hasta su consumo; está formado por el conjunto de personas u organizaciones (intermediarios) que intervienen a lo largo de dicho camino",      "correct": false},
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 10
+            "q": "Según el tipo de producto que se comercializa distinguimos ...",
+            "a": [
+                {"option": "Canales de productos de consumo, industriales y servicios",    "correct": true},
+                {"option": "Canales de productos de consumo, industriales y de capital",     "correct": false},
+                {"option": "Canales de productos de materias primas, suministros y servicios",      "correct": false},
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+
+        { // Question 11
+            "q": "Un canal de distribución directo ...",
+            "a": [
+                {"option": "No tiene intermediarios; el producto va directamente del fabricante al consumidor final",    "correct": true},
+                {"option": "No tiene intermediarios; el producto va directamente del detallista al consumidor final",     "correct": false},
+                {"option": "El consumidor compra directamente al mayorista",      "correct": false},
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 11
+            "q": "Un canal de distribución indirecto corto ...",
+            "a": [
+                {"option": "Participa un único intermediario, el detallista o minorista",    "correct": true},
+                {"option": "Participa un único intermediario, el mayorista",     "correct": false},
+                {"option": "Participa un único intermediario, el agente",      "correct": false},
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 12
+            "q": "Un canal de distribución indirecto largo ...",
+            "a": [
+                {"option": "Participa al menos dos intermediarios, mayorista y minorista",    "correct": true},
+                {"option": "Participa al menos dos intermediarios, mayorista y agente",     "correct": false},
+                {"option": "Participa al menos dos intermediarios, agente y minorista",      "correct": false},
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        },
+        { // Question 13
+            "q": "Un canal de distribución indirecto muy largo ...",
+            "a": [
+                {"option": "Las distancias recorridas superan los 500 km",    "correct": false},
+                {"option": "Existen al menos dos mayoristas",     "correct": false},
+                {"option": "Tiene la estructura Fabricante -> Agente -> M",      "correct": false},
+                ,
+            ],
+            "correct": "<p>Correcto!<p>",
+            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+        }
+        
+
     ]
 };
