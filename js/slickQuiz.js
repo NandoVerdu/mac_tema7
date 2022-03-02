@@ -30,7 +30,7 @@
                 skipStartButton: false,
                 numberOfQuestions: null,
                 randomSortQuestions: false,
-                randomSortAnswers: false,
+                randomSortAnswers: true,
                 preventUnanswered: false,
                 disableScore: false,
                 disableRanking: false,
