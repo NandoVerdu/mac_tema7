@@ -195,6 +195,7 @@ var quizJSON = {
 
                 ,
             ],
+            "select_all":true,
             "correct": "<p><span>Correcto!</span><p>",
             "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
@@ -210,11 +211,13 @@ var quizJSON = {
             "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 18
-            "q": "Un inconveniente de la distribución indirecta para el fabricante es que ...",
+            "q": "Inconvenientes de la distribución indirecta para el fabricante es que ...",
             "a": [
                 {"option": "reduce el número de transacciones con el consumidor final", "correct":false },
                 {"option": "reduce sus costes, ya que no se ocupa del transporte y del almacenamiento", "correct":false },
-                {"option": "el precio final se ve incrementado, ya que el intermediario/s añaden un margen por su gestión", "correct": true}
+                {"option": "el precio final se ve incrementado, ya que el intermediario/s añaden un margen por su gestión", "correct": true},
+                {"option": "el precio final se ve incrementado, ya que el intermediario/s añaden un margen por su gestión", "correct": true},
+                {"option": "puede perder el control de sus productos", "correct":true}
                 ,
             ],
             "correct": "<p><span>Correcto!</span><p>",
