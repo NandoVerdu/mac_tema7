@@ -44,7 +44,7 @@ var quizJSON = {
                 {"option": "Los productos acabados se entregan al distribuidor para su acercamiento al consumidor, por lo que quedan en posesión del distribuidor",      "correct": true},
                  // no comma here
             ],
-            "correct": "<p><span>Correcto</span> El distribuidor puede aplicar estrategias diferentes</p>",
+            "correct": "<p><span>Correcto!</span> El distribuidor puede aplicar estrategias diferentes</p>",
             "incorrect": "<p><span>No es Correcto.</span> </p>" 
         },
         { // Question 4
@@ -55,8 +55,8 @@ var quizJSON = {
                 {"option": "Diversificación",      "correct": false},
                 {"option": "Logística",   "correct": false},
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here
+            "correct": "<p> <span> Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here
         },
         { // Question 5
             "q": "Permite que los productos lleguen hasta diferentes puntos de venta, desde un único punto de fabricación",
@@ -66,8 +66,8 @@ var quizJSON = {
                 {"option": "Diversificación",      "correct": false},
                 {"option": "Logística",   "correct": false},
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
 
         { // Question 6
@@ -78,8 +78,8 @@ var quizJSON = {
                 {"option": "Diversificación",      "correct": true},
                 {"option": "Logística",   "correct": false},
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 7
             "q": "Estudia cómo llevar el producto al público en las mejores condiciones",
@@ -89,8 +89,8 @@ var quizJSON = {
                 {"option": "Diversificación",      "correct": false},
                 {"option": "Logística",   "correct": true},
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 8
             "q": "Los servicios, ¿son susceptibles de distribución física?",
@@ -98,8 +98,8 @@ var quizJSON = {
                 {"option": "Sí",    "correct": false},
                 {"option": "No",     "correct": true},
             ],
-            "correct": "<p>Correcto! La distribución física hace referencia al conjunto de actividades que conllevan una acción física sobre los productos compuesta por transporte, diversificación y almacenamiento<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span> La distribución física hace referencia al conjunto de actividades que conllevan una acción física sobre los productos compuesta por transporte, diversificación y almacenamiento<p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 9
             "q": "Un canal de distribución es ...",
@@ -109,8 +109,8 @@ var quizJSON = {
                 {"option": "La frecuencia que sigue un producto desde el punto de fabricación hasta su consumo; está formado por el conjunto de personas u organizaciones (intermediarios) que intervienen a lo largo de dicho camino",      "correct": false},
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 10
             "q": "Según el tipo de producto que se comercializa distinguimos ...",
@@ -120,8 +120,8 @@ var quizJSON = {
                 {"option": "Canales de productos de materias primas, suministros y servicios",      "correct": false},
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
 
         { // Question 11
@@ -133,7 +133,7 @@ var quizJSON = {
                 ,
             ],
             "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 12
             "q": "Un canal de distribución indirecto corto ...",
@@ -143,8 +143,8 @@ var quizJSON = {
                 {"option": "Participa un único intermediario, el agente",      "correct": false},
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 13
             "q": "Un canal de distribución indirecto largo ...",
@@ -154,8 +154,8 @@ var quizJSON = {
                 {"option": "Participa al menos dos intermediarios, agente y minorista",      "correct": false},
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p></span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 14
             "q": "Un canal de distribución indirecto muy largo ...",
@@ -165,8 +165,8 @@ var quizJSON = {
                 {"option": "Tiene la estructura Fabricante -> Agente -> Mayorista -> Minorista -> Consumidor final",      "correct": true},
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 15
             "q": "El objetivo final de la estrategia de omnicanalidad es mejorar la experiencia del usuario brindándole la misma información a través de todos los canales de distribución. Son ejemplos de omnicanalidad",
@@ -177,8 +177,9 @@ var quizJSON = {
                 {"option": "La empresa tiene las bases de datos integradas y coherentes: las unidades físicas en la aplicación móvil coinciden en la página web",      "correct": true},
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "select_all":true,
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 16
             "q": "Verdadero o falso",
@@ -194,8 +195,8 @@ var quizJSON = {
 
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 17
             "q": "Un inconveniente de la distribución indirecta para el fabricante es que ...",
@@ -205,8 +206,8 @@ var quizJSON = {
                 {"option": "el precio final se ve incrementado, ya que el intermediario/s añaden un margen por su gestión", "correct": true}
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 18
             "q": "Un inconveniente de la distribución indirecta para el fabricante es que ...",
@@ -216,8 +217,8 @@ var quizJSON = {
                 {"option": "el precio final se ve incrementado, ya que el intermediario/s añaden un margen por su gestión", "correct": true}
                 ,
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 19
             "q": "Adquieren mercancía a fabricantes o a otros mayoristas para revender a otros mayoristas o minoristas",
@@ -225,8 +226,8 @@ var quizJSON = {
                 {"option": "Mayoristas", "correct":true },
                 {"option": "Minoristas", "correct":false },
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 20
             "q": "Venden directamente al consumidor final",
@@ -234,8 +235,8 @@ var quizJSON = {
                 {"option": "Mayoristas", "correct":false },
                 {"option": "Minoristas", "correct":true },
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 21
             "q": "Venden directamente al consumidor final",
@@ -243,8 +244,8 @@ var quizJSON = {
                 {"option": "Mayoristas", "correct":false },
                 {"option": "Minoristas", "correct":true },
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 22
             "q": "Un comercio independiente es el que ...",
@@ -253,8 +254,8 @@ var quizJSON = {
                 {"option": "se unen varios intermediarios pero conservando su independencia con el objetivo de obtener mejores precios comprando un mayor volumen o acceder con menores riesgos a nuevos mercados", "correct":false },
                 {"option": "varios eslabones del canal de distribución se agrupan y forman una sola entidad de manera que cada eslabón pierde la independencia","correct":false},
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 23
             "q": "Un comercio asociado es el que ...",
@@ -263,8 +264,8 @@ var quizJSON = {
                 {"option": "se unen varios intermediarios pero conservando su independencia con el objetivo de obtener mejores precios comprando un mayor volumen o acceder con menores riesgos a nuevos mercados", "correct":true },
                 {"option": "varios eslabones del canal de distribución se agrupan y forman una sola entidad de manera que cada eslabón pierde la independencia","correct":false},
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         },
         { // Question 24
             "q": "Un comercio integrado es el que ...",
@@ -273,8 +274,8 @@ var quizJSON = {
                 {"option": "se unen varios intermediarios pero conservando su independencia con el objetivo de obtener mejores precios comprando un mayor volumen o acceder con menores riesgos a nuevos mercados", "correct":false },
                 {"option": "varios eslabones del canal de distribución se agrupan y forman una sola entidad de manera que cada eslabón pierde la independencia","correct":true},
             ],
-            "correct": "<p>Correcto!<p>",
-            "incorrect": "<p>No es Correcto!</p>" // no comma here        
+            "correct": "<p><span>Correcto!</span><p>",
+            "incorrect": "<p><span>No es Correcto!</span></p>" // no comma here        
         }  ,
 
     ]
