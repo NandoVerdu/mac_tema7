@@ -275,13 +275,7 @@ var quizJSON = {
             ],
             "correct": "<p>Correcto!<p>",
             "incorrect": "<p>No es Correcto!</p>" // no comma here        
-        }
-        
-
-
-
-
-        
+        }  ,
 
     ]
 };
